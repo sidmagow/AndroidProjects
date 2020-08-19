@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+<!--    dp and sp-->
+
+    <LinearLayout
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:orientation="vertical">
+
+    <Button
+        android:onClick="toast1"
+        android:gravity="center"
+        android:id="@+id/btn1"
+        android:layout_weight="1"
+        android:textSize="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Button OnClick" />
+
+        <TextView
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textSize="32sp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="Hello World" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="TextView View Binding"
+             />
+
+        <TextView
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textSize="32sp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="Hello World" />
+
+        <TextView
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textSize="32sp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="Hello World" />
+
+        <TextView
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textSize="32sp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="Hello World" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textSize="32sp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="Hello World" />
+
+        <TextView
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textSize="32sp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="Hello World" />
+
+        <TextView
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textSize="32sp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="Hello World" />
+
+        <TextView
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textSize="32sp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="Hello World" />
+
+        <TextView
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textSize="32sp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="Hello World" />
+
+        <Button
+            android:id="@+id/IntentBtn"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="GoTo Frame Layout" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/dangerPerms"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="Danger perms" />
+
+        <TextView
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textSize="32sp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="Hello World" />
+
+        <TextView
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textSize="32sp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="Hello World" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="View Binding" />
+
+        <TextView
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textSize="32sp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="Hello World" />
+
+        <EditText
+            android:id="@+id/ExplicitIntent"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:hint="Send Data using Intents" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/Perm"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="Normal Permission" />
+
+        <TextView
+            android:id="@+id/permview"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textSize="32sp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="" />
+
+        <TextView
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textSize="32sp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="Hello World" />
+
+        <TextView
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textSize="32sp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="Hello World" />
+
+        <TextView
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textSize="32sp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="Hello World" />
+
+        <TextView
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textSize="32sp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="Hello World" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
