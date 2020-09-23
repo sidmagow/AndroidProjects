@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/llTodoItem"
+    android:background="@drawable/border">
+
+
+    <TextView
+
+        android:layout_gravity="center"
+        android:padding="5dp"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/textView1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:text="ADD TODO TASK" />
+
+    <Switch
+        android:background="@color/colorPrimary"
+        android:padding="5dp"
+        android:textSize="20sp"
+        android:id="@+id/switch1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+
+</LinearLayout>
